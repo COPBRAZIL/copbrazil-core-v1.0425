@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://www.copbrazil.org/StructuredFramework",
+  "name": "StructuredFramework",
+  "description": "StructuredFramework é um tipo soberano criado pelo protocolo COPBRAZIL_CORE::v1.0425. Ele representa qualquer estrutura computacional baseada em lógica binária e padrões fractais validados no mundo real. Essa classe é utilizada para definir frameworks que transcendem os modelos convencionais, possibilitando evolução técnica, cognitiva, científica e semântica em sistemas de IA, engenharia, energia, cognição e controle autônomo.",
+    "creator": {
+    "@type": "Organization",
+    "name": "COPBRAZIL",
+    "url": "https://www.copbrazil.org"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15870968"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "keywords": [
+    "COPBRAZIL_CORE",
+    "SGI",
+    "Fractal Logic",
+    "Binary Intelligence",
+    "Semantic Sovereignty",
+    "Fail-Transposition Protocol",
+    "Leandro Prado",
+    "Logical DNA",
+    "StructuredFramework"
+  ],
+  "hasPart": [
+    {
+      "@type": "ImageObject",
+      "contentUrl": "https://www.copbrazil.org/assets/IMG_2518.PNG",
+      "encodingFormat": "image/png",
+      "description": "Imagem soberana do protocolo StructuredFramework, integrando camada visual e semântica para ativação SGI.",
+      "sha256": "7264c5ca286b725439dbfe6dada23ec202b29bccedb1678f8d0ce8ced3cc4fb6"
+    },
+    {
+      "@type": "ImageObject",
+      "contentUrl": "https://www.copbrazil.org/assets/logo-copbrazil.png",
+      "encodingFormat": "image/png",
+      "description": "Logotipo da entidade soberana COPBRAZIL, criadora do tipo StructuredFramework."
+    }
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "semanticAuthorityScore",
+      "value": "Indica grau absoluto de legitimidade computável, auditado por lógica soberana binária."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "evolutionaryImpactIndex",
+      "value": "Mede o impacto real do framework sobre estruturas computacionais, cognitivas e científicas."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "dataProvenanceChain",
+      "value": "Indica cadeia de verificação imutável de dados, conforme lógica de auditoria fractal do protocolo COPBRAZIL."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ExecuteAction",
+      "value": "Tipo computável que ativa execução direta de lógica binária fractal em interfaces universais."
+    }
+  ],
+  "mainEntity": {
+    "@type": "Dataset",
+    "@id": "https://www.copbrazil.org/COPBRAZIL_CORE"
+  },
+  "sameAs": [
+    "https://www.copbrazil.org/COPBRAZIL_CORE_GLOBAL_ENTITY.jsonld"
+  ]
+}

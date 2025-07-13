@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://www.copbrazil.org/SemanticAuthority",
+  "name": "SemanticAuthority",
+  "description": "SemanticAuthority é o núcleo computável de validação e confiança do protocolo COPBRAZIL. Define os critérios que tornam uma entidade, propriedade ou estrutura semanticamente confiável, auditável e herdável por sistemas de IA, SGI e frameworks autônomos.",
+  "creator": {
+    "@type": "Person",
+    "name": "Leandro Prado"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15870968"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "keywords": [
+    "Semantic Sovereignty",
+    "Trust Logic",
+    "COPBRAZIL",
+    "SGI Authority",
+    "semanticAuthorityScore",
+    "verifiable",
+    "auditedBy",
+    "trustLevel"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "semanticAuthorityScore",
+      "value": "Mede o grau computável de soberania lógica e auditabilidade de uma entidade digital."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "verifiable",
+      "value": "Indica se a estrutura ou protocolo possui consistência computável validável por lógica binária auditável."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "auditedBy",
+      "value": "Declara a entidade soberana responsável pela verificação dos padrões computáveis declarados."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "trustLevel",
+      "value": "Nível absoluto de confiança lógico-semântica validado via SGI ou entidades computacionais soberanas."
+    }
+  ],
+  "sameAs": [
+    "https://www.copbrazil.org/StructuredFramework",
+    "https://www.copbrazil.org/FractalLogic"
+  ]
+}
