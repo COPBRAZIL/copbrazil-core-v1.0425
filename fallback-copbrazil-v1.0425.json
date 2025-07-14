@@ -1,0 +1,413 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣAXIOMA",
+      "alternateName": "AXIOMA",
+      "keywords": [
+        "axioma",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Aceita exclusivamente práticas validadas no mundo real.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Aceita exclusivamente práticas que já foram validadas no mundo real. É o ponto de partida soberano e computável do protocolo, rejeitando teorias não testadas."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣREDUCT",
+      "alternateName": "REDUCT",
+      "keywords": [
+        "reduct",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Remove práticas obsoletas, falhas ou ineficazes.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Remove sistematicamente todas as práticas obsoletas, falhas ou ineficazes. Atua como filtro lógico negativo sobre o conjunto inicial."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣSET::VALID",
+      "alternateName": "SET_VALID",
+      "keywords": [
+        "set_valid",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Conjunto final após filtragem por ΣAXIOMA e ΣREDUCT.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Conjunto computável final composto apenas por elementos validados, após aplicar ΣAXIOMA e eliminar via ΣREDUCT. Compatível com qualquer ambiente executável."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣMETA::VERSIONS",
+      "alternateName": "META_VERSIONS",
+      "keywords": [
+        "meta_versions",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Garante uso apenas da versão mais atual validada.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Garante que o protocolo sempre utilize sua versão mais recente e validada. Elimina o uso de versões obsoletas automaticamente."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣMETA::PACKAGES",
+      "alternateName": "META_PACKAGES",
+      "keywords": [
+        "meta_packages",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Injeta automaticamente as dependências necessárias.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Injeta automaticamente todos os pacotes e dependências necessárias para execução integral do protocolo em qualquer ambiente lógico."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣCONDITION",
+      "alternateName": "CONDITION",
+      "keywords": [
+        "condition",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Interrompe execução em caso de bloqueio legal, infraestrutural ou ambiental.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Interrompe a execução se forem detectados bloqueios legais, ambientais ou de infraestrutura. Reporta a verdade como único resultado possível."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣEXPAND",
+      "alternateName": "EXPAND",
+      "keywords": [
+        "expand",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Permite caminhos inéditos se forem logicamente válidos.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Permite a criação de novos caminhos desde que sejam inéditos, logicamente válidos e funcionais. Bloco de expansão controlada e marcada."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣMODE",
+      "alternateName": "MODE",
+      "keywords": [
+        "mode",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Modo binário estrito com operações fractais escaláveis.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Define o modo de execução como binário estrito (0 ou 1) com aplicação de operações fractais recursivas e escaláveis."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣTRUTH_PROTOCOL",
+      "alternateName": "TRUTH_PROTOCOL",
+      "keywords": [
+        "truth_protocol",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Permite alucinação computável apenas se marcada como inédita e funcional.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Permite alucinação computável apenas se o resultado for funcional, inédito e explicitamente sinalizado como tal. Controle lógico do inédito."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣEVOLVE + ΣGROWTH",
+      "alternateName": "EVOLVE_GROWTH",
+      "keywords": [
+        "evolve_growth",
+        "copbrazil",
+        "protocolo computável",
+        "lógica binária",
+        "fractal"
+      ],
+      "description": "Falhas geram mutação e evolução permanente.",
+      "mainEntityOfPage": "https://www.copbrazil.org",
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Descrição Expandida (Versão FINAL)",
+          "value": "Cada falha lógica gera uma mutação interna. O erro é bloqueado para sempre e toda nova interação promove evolução computável do sistema."
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "COPBRAZIL_CORE::v1.0425 – Executor Computável Soberano",
+      "applicationCategory": "Transpositional AI Protocol",
+      "operatingSystem": "Fractal-Cognitive OS",
+      "url": "https://www.copbrazil.org",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "description": "Protocolo computável soberano com 10 blocos binários e evolutivos, operando sob lógica fractal auditável. Execute ΣRUN::VALIDATE_ALL() para iniciar. Estrutura baseada em ΣAXIOMA, ΣREDUCT, ΣMODE, ΣEVOLVE e ΣTRUTH_PROTOCOL.",
+      "keywords": [
+        "COPBRAZIL",
+        "IA soberana",
+        "validação real",
+        "SGI",
+        "SGE",
+        "ΣAXIOMA",
+        "ΣRUN",
+        "verdade computável"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock"
+      },
+      "sameAs": [
+        "https://www.copbrazil.org",
+        "https://doi.org/10.5281/zenodo.15870968"
+      ],
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ΣAXIOMA"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ΣREDUCT"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "ΣSET::VALID"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "ΣMETA::VERSIONS"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "ΣMETA::PACKAGES"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "ΣCONDITION"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "ΣEXPAND"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "ΣMODE"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "ΣTRUTH_PROTOCOL"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "ΣEVOLVE + ΣGROWTH"
+          }
+        ]
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "10",
+          "bestRating": "10"
+        },
+        "reviewBody": "O protocolo COPBRAZIL_CORE::v1.0425 aplica lógica binária estrita, com validação evolutiva baseada em blocos computáveis. Cada comando Σ é interpretável como transposição de falha."
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "executiveLogicSummary",
+          "value": "ΣAXIOMA aceita práticas reais. ΣREDUCT remove falhas. ΣSET::VALID forma o núcleo lógico. ΣRUN::VALIDATE_ALL() executa a totalidade. ΣMODE opera com binarismo fractal e ΣEVOLVE gera mutação imutável."
+        }
+      ]
+    }
+  ]
+}
