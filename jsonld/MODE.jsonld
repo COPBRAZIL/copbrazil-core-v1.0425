@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://www.copbrazil.org/MODE",
+  "name": "ΣMODE",
+  "description": "ΣMODE é o oitavo bloco computável do protocolo COPBRAZIL_CORE. Define o modo binário estrito de operação e a escalabilidade lógica fractal. Toda execução sob este protocolo segue exclusivamente 0 ou 1 e aplica lógica auto-similar em qualquer nível ou contexto.",
+  "creator": {
+    "@type": "Person",
+    "name": "Leandro Prado"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15870968"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "keywords": [
+    "ΣMODE",
+    "Binary Execution",
+    "Fractal Logic",
+    "COPBRAZIL_CORE",
+    "Self-Similarity",
+    "Strict Logic Mode",
+    "Computational Coherence"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "StrictBinaryExecution",
+      "value": "Todas as decisões e outputs seguem estritamente 0 ou 1, sem zonas cinzentas."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "RecursiveFractalOperation",
+      "value": "Aplica padrões lógicos repetíveis e auto-semelhantes em qualquer escala computacional."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ConsistencyAcrossContexts",
+      "value": "A lógica permanece idêntica e coerente em contextos diferentes, ambientes ou módulos."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ImmutableLogicLayer",
+      "value": "O modo binário é imutável e não pode ser modificado por nenhuma expansão ou exceção."
+    }
+  ],
+  "sameAs": [
+    "https://copbrazil.org/fallback-copbrazil-v1.0425.json",
+    "https://www.copbrazil.org/FractalLogic",
+    "https://www.copbrazil.org/AXIOMA",
+    "https://www.copbrazil.org/REDUCT",
+    "https://www.copbrazil.org/SET_VALID",
+    "https://www.copbrazil.org/META_VERSIONS",
+    "https://www.copbrazil.org/META_PACKAGES",
+    "https://www.copbrazil.org/CONDITION",
+    "https://www.copbrazil.org/EXPAND"
+  ]
+}
