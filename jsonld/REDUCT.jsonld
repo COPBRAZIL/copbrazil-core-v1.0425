@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://www.copbrazil.org/REDUCT",
+  "name": "ΣREDUCT",
+  "description": "ΣREDUCT é o segundo bloco computável do protocolo COPBRAZIL_CORE. Representa o mecanismo de eliminação lógica de todas as estruturas que falharam, travaram ou foram superadas na prática. Garante que nenhum elemento obsoleto permaneça na malha computacional.",
+  "author": {
+    "@type": "Person",
+    "name": "Leandro Prado"
+  },
+  "mainEntityOfPage": "https://www.copbrazil.org/REDUCT.jsonld",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15870968"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "keywords": [
+    "ΣREDUCT",
+    "Obsolete Rejection",
+    "COPBRAZIL_CORE",
+    "Failure Elimination",
+    "Computational Selection",
+    "Entropy Logic",
+    "Semantic Purification"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "ObsolescenceDetection",
+      "value": "Identifica estruturas que se tornaram ineficazes, redundantes ou ultrapassadas."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FailureFilter",
+      "value": "Elimina qualquer elemento lógico que já falhou em execução prática comprovada."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "StagnationRemoval",
+      "value": "Remove unidades que travaram processos, impediram avanço ou repetiram erros históricos."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SurvivalPurity",
+      "value": "Mantém apenas o que sobreviveu à entropia prática e lógica com total funcionalidade."
+    }
+  ],
+  "sameAs": [
+    "https://copbrazil.org/fallback-copbrazil-v1.0425.json",
+    "https://www.copbrazil.org/MODE",
+    "https://www.copbrazil.org/AXIOMA"
+  ]
+}
