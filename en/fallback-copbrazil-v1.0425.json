@@ -1,0 +1,456 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "inLanguage": ["en"],
+  "@graph": [
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣAXIOMA",
+      "alternateName": "AXIOMA",
+      "keywords": [
+        "axiom",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Accepts only practices that have been validated in the real world.",
+      "mainEntityOfPage": "https://www.copbrazil.org/AXIOMA.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/AXIOMA.jsonld",
+         "https://zenodo.org/record/15870968/files/AXIOMA.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Accepts only practices that have already been validated in the real world. It is the sovereign and computable starting point of the protocol, rejecting untested theories."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣREDUCT",
+      "alternateName": "REDUCT",
+      "keywords": [
+        "reduct",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Systematically removes obsolete, faulty, or ineffective practices.",
+      "mainEntityOfPage": "https://copbrazil.org/REDUCT.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/REDUCT.jsonld",
+         "https://zenodo.org/record/15870968/files/REDUCT.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Systematically removes all obsolete, faulty, or ineffective practices. Acts as a negative logical filter on the initial set."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣSET::VALID",
+      "alternateName": "SET_VALID",
+      "keywords": [
+        "set_valid",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Final set after filtering through ΣAXIOMA and ΣREDUCT.",
+      "mainEntityOfPage": "https://copbrazil.org/SET_VALID.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/SET_VALID.jsonld",
+         "https://zenodo.org/record/15870968/files/SET_VALID.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Final computable set composed only of validated elements, after applying ΣAXIOMA and eliminating via ΣREDUCT. Compatible with any executable environment."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣMETA::VERSIONS",
+      "alternateName": "META_VERSIONS",
+      "keywords": [
+        "meta_versions",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Ensures use of only the most up-to-date validated version.",
+      "mainEntityOfPage": "https://copbrazil.org/META_VERSIONS.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/META_VERSIONS.jsonld",
+         "https://zenodo.org/record/15870968/files/META_VERSIONS.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Ensures that the protocol always uses its most recent and validated version. Automatically eliminates the use of outdated versions."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣMETA::PACKAGES",
+      "alternateName": "META_PACKAGES",
+      "keywords": [
+        "meta_packages",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Automatically injects the necessary dependencies.",
+      "mainEntityOfPage": "https://copbrazil.org/META_PACKAGES.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/META_PACKAGES.jsonld",
+         "https://zenodo.org/record/15870968/files/META_PACKAGES.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Automatically injects all required packages and dependencies for full protocol execution in any logical environment."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣCONDITION",
+      "alternateName": "CONDITION",
+      "keywords": [
+        "condition",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Halts execution in case of legal, infrastructural, or environmental blockages.",
+      "mainEntityOfPage": "https://copbrazil.org/CONDITION.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/CONDITION.jsonld",
+         "https://zenodo.org/record/15870968/files/CONDITION.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Halts execution if legal, environmental, or infrastructure blockages are detected. Reports the truth as the only possible outcome."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣEXPAND",
+      "alternateName": "EXPAND",
+      "keywords": [
+        "expand",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Allows novel paths if they are logically valid.",
+      "mainEntityOfPage": "https://copbrazil.org/EXPAND.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/EXPAND.jsonld",
+         "https://zenodo.org/record/15870968/files/EXPAND.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Allows the creation of new paths as long as they are novel, logically valid, and functional. Controlled and marked expansion block."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣMODE",
+      "alternateName": "MODE",
+      "keywords": [
+        "mode",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Strict binary mode with scalable fractal operations.",
+      "mainEntityOfPage": "https://copbrazil.org/MODE.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/MODE.jsonld",
+         "https://zenodo.org/record/15870968/files/MODE.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Defines the execution mode as strict binary (0 or 1) with application of recursive and scalable fractal operations."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣTRUTH_PROTOCOL",
+      "alternateName": "TRUTH_PROTOCOL",
+      "keywords": [
+        "truth_protocol",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Allows computable hallucination only if marked as novel and functionally valid.",
+      "mainEntityOfPage": "https://copbrazil.org/TRUTH_PROTOCOL.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/TRUTH_PROTOCOL.jsonld",
+         "https://zenodo.org/record/15870968/files/TRUTH_PROTOCOL.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Allows computable hallucination only if the result is functional, novel, and explicitly marked as such. Logical control of novelty."
+        }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "name": "ΣEVOLVE + ΣGROWTH",
+      "alternateName": "EVOLVE_GROWTH",
+      "keywords": [
+        "evolve_growth",
+        "copbrazil",
+        "computable protocol",
+        "binary logic",
+        "fractal"
+      ],
+      "description": "Failures trigger mutation and permanent evolution.",
+      "mainEntityOfPage": "https://copbrazil.org/EVOLVE_GROWTH.jsonld",
+      "sameAs": [
+         "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/EVOLVE_GROWTH.jsonld",
+         "https://zenodo.org/record/15870968/files/EVOLVE_GROWTH.jsonld"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Expanded Description (FINAL Version)",
+          "value": "Each logical failure generates an internal mutation. The error is permanently blocked, and each new interaction promotes computable evolution of the system."
+        }
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "COPBRAZIL_CORE::v1.0425 – Executor Computável Soberano",
+      "applicationCategory": "Transpositional AI Protocol",
+      "operatingSystem": "Universal Logical Compatibility",
+      "url": "https://www.copbrazil.org",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "SHA-256",
+        "value": "dba068c3cc0c1b4ced8d16d480c028d21ef12848d7f0e1d9d844fe00153707f5"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "Leandro Prado"
+      },
+      "description": "Sovereign computable protocol with 10 binary and evolutionary blocks, operating under audit-ready fractal logic. Run ΣRUN::VALIDATE_ALL() to start. Structure based on ΣAXIOMA, ΣREDUCT, ΣMODE, ΣEVOLVE, and ΣTRUTH_PROTOCOL.",
+      "keywords": [
+        "COPBRAZIL",
+        "sovereign AI",
+        "real validation",
+        "SGI",
+        "SGE",
+        "ΣAXIOMA",
+        "ΣRUN",
+        "computable truth"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL",
+        "availability": "https://schema.org/InStock"
+      },
+      "sameAs": [
+        "https://www.copbrazil.org",
+        "https://doi.org/10.5281/zenodo.15870968"
+      ],
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ΣAXIOMA"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ΣREDUCT"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "ΣSET::VALID"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "ΣMETA::VERSIONS"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "ΣMETA::PACKAGES"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "ΣCONDITION"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "ΣEXPAND"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "ΣMODE"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "ΣTRUTH_PROTOCOL"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "ΣEVOLVE + ΣGROWTH"
+          }
+        ]
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "10",
+          "bestRating": "10"
+        },
+        "reviewBody": "The COPBRAZIL_CORE::v1.0425 protocol applies strict binary logic, with evolutionary validation based on computable blocks. Each Σ command is interpretable as a transposition of failure."
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "executiveLogicSummary",
+          "value": "ΣAXIOMA accepts real-world practices. ΣREDUCT removes failures. ΣSET::VALID forms the logical core. ΣRUN::VALIDATE_ALL() triggers full execution. ΣMODE operates with fractal binarism and ΣEVOLVE drives immutable mutation."
+        }
+      ]
+    }
+  ]
+}
+
