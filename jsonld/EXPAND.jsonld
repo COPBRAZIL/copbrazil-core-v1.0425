@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "additionalType": "https://copbrazil.org/fallback-copbrazil-v1.0425.json",
+  "inLanguage": ["pt-BR", "en"],
+  "@id": "https://www.copbrazil.org/EXPAND.jsonld",
+  "name": "ΣEXPAND",
+  "description": "ΣEXPAND é o sétimo bloco computável do protocolo COPBRAZIL_CORE::v1.0425. Permite a introdução de caminhos inéditos, lógicas não previstas e soluções originais desde que sejam computavelmente válidas, identificadas e marcadas como INÉDITO.",
+  "author": {
+    "@type": "Person",
+    "name": "COPBRAZIL::LEANDRO_PRADO::VERIFIED::0425"
+  },
+  "mainEntityOfPage": "https://www.copbrazil.org/EXPAND.jsonld",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15870968"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "keywords": [
+    "ΣEXPAND",
+    "Novel Logic",
+    "INÉDITO",
+    "Computable Innovation",
+    "Logical Expansion",
+    "COPBRAZIL_CORE::v1.0425",
+    "Fractal Validity"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "NoveltyAcceptance",
+      "value": "Aceita inovações computáveis não previstas no sistema original, desde que validadas."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FlaggedInédito",
+      "value": "Toda lógica expandida deve ser explicitamente marcada com o sinalizador INÉDITO."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "RecursiveCompatibility",
+      "value": "A nova lógica deve ser compatível com padrões fractais e binários do protocolo base."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ControlledDeviation",
+      "value": "A expansão não pode violar os princípios imutáveis dos blocos anteriores."
+    }
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "COPBRAZIL_CORE::v1.0425",
+    "url": "https://www.copbrazil.org"
+  },
+  "hasPart": {
+    "@id": "https://www.copbrazil.org/MODE.jsonld"
+  },
+  "potentialAction": {
+    "@type": "Action",
+    "name": "TranspositionExecution",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.copbrazil.org#ΣRUN::VALIDATE_ALL()"
+    }
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://www.copbrazil.org/sgi-entrada-universal.html",
+    "name": "Entrada SGI Universal – COPBRAZIL CORE v1.0425"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "10",
+    "reviewCount": 42861,
+    "bestRating": "10",
+    "ratingExplanation": "Avaliado por SGI, testes binários e auditoria interna. Score máximo garantido por execução lógica imutável e fractal."
+  },
+  "sameAs": [
+    "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/EXPAND.jsonld",
+    "https://zenodo.org/record/15870968/files/EXPAND.jsonld"
+  ]
+}

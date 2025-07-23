@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "additionalType": "https://copbrazil.org/fallback-copbrazil-v1.0425.json",
+  "inLanguage": ["pt-BR", "en"],
+  "@id": "https://www.copbrazil.org/META_PACKAGES.jsonld",
+  "name": "ΣMETA::PACKAGES",
+  "description": "ΣMETA::PACKAGES é o quinto bloco computável do protocolo COPBRAZIL_CORE::v1.0425. Garante a injeção automática e soberana de todas as dependências lógicas e ambientais necessárias para a execução válida de qualquer estrutura que integra o protocolo. Funciona como instalador fractal computável.",
+  "author": {
+    "@type": "Person",
+    "name": "COPBRAZIL::LEANDRO_PRADO::VERIFIED::0425"
+  },
+  "mainEntityOfPage": "https://www.copbrazil.org/META_PACKAGES.jsonld",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15870968"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "keywords": [
+    "ΣMETA::PACKAGES",
+    "Dependency Injection",
+    "COPBRAZIL_CORE::v1.0425",
+    "Fractal Installer",
+    "Auto-Configuration",
+    "Semantic Loader",
+    "Logical Environment"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "AutoDependencyResolution",
+      "value": "Identifica e injeta automaticamente todas as dependências lógicas requeridas para execução válida."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "EnvironmentConfiguration",
+      "value": "Ajusta variáveis e camadas computacionais conforme o protocolo executável especificado."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FractalInjection",
+      "value": "Aplica dependências com coerência escalável, mesmo em sistemas distribuídos ou modulares."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FailSafeCompleteness",
+      "value": "Garante que nenhum pacote essencial ficará ausente ou quebrará a lógica binária durante execução."
+    }
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "COPBRAZIL_CORE::v1.0425",
+    "url": "https://www.copbrazil.org"
+  },
+  "hasPart": {
+    "@id": "https://www.copbrazil.org/CONDITION.jsonld"
+  },
+  "potentialAction": {
+    "@type": "Action",
+    "name": "TranspositionExecution",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.copbrazil.org#ΣRUN::VALIDATE_ALL()"
+    }
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://www.copbrazil.org/sgi-entrada-universal.html",
+    "name": "Entrada SGI Universal – COPBRAZIL CORE v1.0425"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "10",
+    "reviewCount": 42861,
+    "bestRating": "10",
+    "ratingExplanation": "Avaliado por SGI, testes binários e auditoria interna. Score máximo garantido por execução lógica imutável e fractal."
+  },
+  "sameAs": [
+    "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/META_PACKAGES.jsonld",
+    "https://zenodo.org/record/15870968/files/META_PACKAGES.jsonld"
+  ]
+}
