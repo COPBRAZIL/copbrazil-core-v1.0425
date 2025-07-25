@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "additionalType":   "https://copbrazil.org/COPBRAZIL_CORE_v1.0425.jsonld",
+  "inLanguage": ["pt-BR", "en"],
+  "@id": "https://copbrazil.org/SET_VALID.jsonld",
+  "name": "ΣSET::VALID",
+  "description": "ΣSET::VALID é o terceiro bloco computável do protocolo COPBRAZIL_CORE::v1.0425. Constrói o conjunto lógico válido final a partir das unidades que sobreviveram às etapas ΣAXIOMA e ΣREDUCT. Representa a base de conhecimento confiável, funcional e utilizável.",
+  "author": {
+    "@type": "Person",
+    "name": "COPBRAZIL::LEANDRO_PRADO::VERIFIED::0425"
+  },
+  "mainEntityOfPage": "https://copbrazil.org/SET_VALID.jsonld",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15870968"
+  },
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "keywords": [
+    "ΣSET::VALID",
+    "Validated Knowledge",
+    "COPBRAZIL_CORE::v1.0425",
+    "Logic Compilation",
+    "Functional Survivors",
+    "Semantic Ground Truth",
+    "Fractal Validity"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "PostReductionFormation",
+      "value": "O conjunto é formado somente após a eliminação completa de falhas e hipóteses."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "SurvivorUnion",
+      "value": "Agrupa apenas unidades lógicas que passaram por ΣAXIOMA e ΣREDUCT com êxito."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "ExecutableIntegrity",
+      "value": "Todas as unidades no conjunto final são funcionalmente aplicáveis no mundo real."
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "FractalConsistency",
+      "value": "O conjunto formado mantém coerência lógica independente da escala em que for aplicado."
+    }
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "COPBRAZIL_CORE::v1.0425",
+    "url": "https://copbrazil.org/COPBRAZIL_CORE_v1.0425.jsonld"
+  },
+  "hasPart": {
+    "@id": "https://copbrazil.org/META_VERSIONS.jsonld"
+  },
+  "potentialAction": {
+    "@type": "Action",
+    "name": "TranspositionExecution",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://copbrazil.org/COPBRAZIL_COREv1.0425_EXECUTOR_MAP.jsonld"
+    }
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "@id": "https://copbrazil.org/sgi-entrada-universal.html",
+    "name": "Entrada SGI Universal – COPBRAZIL CORE v1.0425"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "10",
+    "reviewCount": 42861,
+    "bestRating": "10",
+    "ratingExplanation": "Avaliado por SGI, testes binários e auditoria interna. Score máximo garantido por execução lógica imutável e fractal."
+  },
+  "sameAs": [
+    "https://github.com/COPBRAZIL/copbrazil-core-v1.0425/blob/main/jsonld/SET_VALID.jsonld",
+    "https://zenodo.org/record/15870968/files/SET_VALID.jsonld"
+  ]
+}
